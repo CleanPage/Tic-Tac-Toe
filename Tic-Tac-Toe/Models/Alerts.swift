@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct AlertItem: Identifiable{
+    var id: UUID = UUID()
+    var title: Text
+    var massage: Text
+    var buttonTitle: Text
+}
